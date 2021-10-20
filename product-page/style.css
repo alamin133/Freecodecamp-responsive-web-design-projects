@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    height: 80px;
+    width: 100vw;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+}
+#header-img{
+    margin-top: 50px;
+    width: 300px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+#nav-bar ul{
+    display: flex;
+    list-style-type:none;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 70px;
+    font-size: 20px;
+    min-height: 75px;
+    
+    
+}
+.nav-link{
+    text-decoration: none;
+    margin-left: 70px;
+    color:#000;
+}
+#form{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#form h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#form input{
+    width: 22%;
+    padding: 5px;
+    margin-bottom: 12px;
+}
+button{
+    width: 12%;
+    background-color: orange;
+    padding:7px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    border:none;
+}
+button:hover {background-color: #cf8e2d}
+
+#flex{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+}
+.icon{
+    margin-right: 80px;
+   
+}
+#desc h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#desc p{
+    font-size: 1.1em;
+    font-weight: 200;
+}
+#video{
+    text-align: center;
+    margin-top: 60px;
+}
+#products{
+    width: 100vw;
+    height: 70%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 60px;
+    
+    
+}
+#product{
+    border: 1px solid black;
+   
+    height: 50vh;
+    width: 28vw;
+    position: relative;
+    
+    margin-left: 10px;
+   
+
+}
+#product .level{
+    position: absolute;
+    top: 0;
+    background-color: rgb(146, 137, 139);
+    width:100%;
+    height: 30px;
+    text-align: center;
+}
+#product h2{
+    position:absolute;
+    text-align: center;
+    top:40px;
+    left:140px;
+}
+#product ul{
+    position: absolute;
+    top:80px;
+    left:130px;
+    font-size: 20px;
+    
+}
+#product ul li{
+    padding: 10px;
+    list-style-type: none;
+}
+.btn{
+    position: absolute;
+    bottom:20px;
+    width: 80px;
+    left:140px;
+    padding: 8px;
+
+}
+.alamin{
+    margin-top: 50px;
+    text-align: center;
+    background-color: cyan;
+}

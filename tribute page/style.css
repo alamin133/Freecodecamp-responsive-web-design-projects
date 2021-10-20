@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    
+    
+    
+    
+    
+}
+#main{
+    background-color: #eeeeee;
+    
+    margin-top: 50px;
+    margin: 30px 10px;
+    padding: 45px;
+   
+
+}
+ #title{
+     font-size: 35px;
+     margin-bottom: 20px;
+    
+    
+}
+#main p{
+    font-size: 18px;
+}
+#img-div{
+    
+    background-color: #ffffff;
+    width: 90vw;
+    height: 100vh;
+    
+    margin: 20px 10px;
+}
+#img{
+    margin-bottom: 10px;
+    height: 90%;
+    width: 90%;
+}
+ #img-caption{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+#tribute-info{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 auto;
+    text-align: left;
+    font-size: 17px;
+    
+    line-height: 1.6;
+}
+#headline{
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+li {
+    margin: 20px 0;
+    
+}
+#indian{
+    text-align: left;
+}
+#alamin{
+    background-color: rgb(180, 105, 13);
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
